@@ -27,6 +27,8 @@ int main() {
 				if (a[i][1] == a[i + 1][0]) {
 					// a 2 x 2 block can only be considered valid iff the 2nd cell
 					// of the 1st row is equal to the 1st cell on the 2nd row
+					// also, we only need one of these blocks because we can make
+					// a valid symmetric matrix with 1 valid type of 2 x 2 block
 					checker = true;
 					break;
 				}
